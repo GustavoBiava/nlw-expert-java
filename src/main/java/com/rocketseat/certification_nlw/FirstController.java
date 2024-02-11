@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstController {
 	
 	@GetMapping("/returnFirstController")
-	public String returnFirstController() {
-		return "Criando a primeira controller";
+	public User returnFirstController() {
+		var user = new User("Cristiano", 39);
+		return user;
 	}
+	
+	record User(String name, Integer age) {}
 
 }
