@@ -63,6 +63,7 @@ Body:
 }
 ```
 ### Observações!
+- Após iniciar a aplicação rode o arquivo SQL no banco de dados presente em <b>nlw-expert-java/src/main/resources/create.sql</b>, para efetuar uma carga inicial de questões e alternativas;
 - Caso deseje mudar a porta em que a aplicação roda, altere a mesma utilizando a propriedade <b>server.port={PORTA}</b> em <b>application.properties</b>;
 - Caso deseje encerrar a aplicação, aperte Ctrl + C e confirme a parada no terminal;
 - Mude as configurações do banco de dados dentro do arquivo <b>application.properties</b>, presente no diretório: <b>nlw-expert-java/src/main/resources/application.properties</b>.
